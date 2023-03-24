@@ -1,38 +1,508 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Nav{
+  height: 100px;
+  justify-content: space-between;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
+  
+}
+
+.NavLeftSide {
+  
+}
+
+.NavLeftSide img {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.NavRightSide {
+ 
+}
+
+.NavRightSide ul {
+  margin: 20px 60px 20px 20px;
+}
+.NavLastSide {
+  display: none;
+  margin: auto 20px auto 0px;
+}
+.NavLastSide button {
+  background-color: white;
+  display: inline-block;
+  padding: 10px 17px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+  font-family: sans-serif;
+  border: 1px solid #7510F7;
+  color: black
+}
+.NavLastSide button:hover {
+  background-color: #7510F7;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.NavRightSide ul li {
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
+.NavRightSide ul a {
+  text-decoration: none;
+  color: #000
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.NavRightSide ul li:hover {
+  color: #7510F7
+}
+
+
+
+
+.Body {
+  text-align: center;
+  padding-top:  50px;
+  
+}
+
+.Body h1 {
+  font-size: 45px;
+  font-family: sans-serif;
+}
+
+.Body p {
+  font-size: 30px;
+}
+
+.Body div img {
+  width: 75%;
+  height: 100%
+}
+
+.Service{
+  margin-top: 20px;
+  box-shadow: 0px 0px 2px 0px;
+  
+  border-radius: 30px;
+  border: #E6ECF8;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  text-align: center;
+}
+.Service div {
+  
+  width: 35%
+}
+.Service div img {
+  width: 20%;
+  border-radius: 100%;
+}
+.LastService {
+  
+}
+.firstService {
+  border-right: 1px solid #E6ECF8;
+}
+.secondService {
+  border-right: 1px solid #E6ECF8;
+}
+.About {
+  padding: 0px 40px;
+}
+.About h1{
+  font-size: 40px;
+}
+.aboutContent {
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:sans-serif;
+}
+.aboutSpliting {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -20px;
+}
+.aboutSpliting div{
+  flex: 1
+}
+.aboutSpliting div img {
+  width: 100%;
+  height: 90%;
+}
+.paragraphGreenColor {
+  color:#7510F7
+}
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contactLeft {
+  flex: 1
+}
+.contactRight {
+  flex: 1;
+  align-items: center;
+}
+.contactRight img {
+  width: 100%
+}
+.contactMain {
+  margin-top: 30px;
+  padding: 0px 40px;
+}
+
+.contactName {
+  right: 0%;
+  opacity: 1;
+  font-size: 90px;
+  margin-bottom: -15px;
+  margin-top: 0px
+} 
+.contactLeft p{
+  font-size: 26px;
+  color: #757575;
+  line-height: 1.3;
+}
+.contactLeft ul li a img {
+  width: 25%;
+  height: 100%;
+  border-radius: 100%;
+  
+}
+.contactLeft ul li {
+  display: inline-block;
+  width: 30%;
+  
+  margin: 0px 20px 20px -35px;
+}
+.contactLeft ul {
+  list-style-type: none;
+  
+}
+.contactLeft ul li a{
+  
+  text-decoration: none;
+  display: block;
+  line-height: 3;
+  cursor: pointer;
+}
+.contactLeft ul li a span {
+  font-size: 20px;
+  margin-top: -50px;
+}
+.Projects {
+  text-align: center;
+  margin-top: 0;
+  position: relative
+}
+.Projects  h1 {
+  font-size: 30px;
+  
+}
+.Projects div {
+  background-color: green;
+  height: 5px;
+  width: 30px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.Projects p {
+  font-size: 18px;
+  color: #757575;
+  line-height: 1.3;
+}
+.mainBottomBar {
+  background-color: #7510F7;
+  padding: 40px 60px 0px 60px;
+  margin-top: 20px;
+  color: white;
+}
+.BottomBar {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  
+}
+.rightBottomBar {
+  flex: 1;
+  text-align: end;
+}
+.rightBottomBar a img {
+  width: 30px;
+  border-radius: 100%;
+}
+.rightBottomBar h2 {
+  margin-right: 100px;
+}
+.rightBottomBar a {
+  padding-left: 10px;
+  cursor: pointer;
+}
+.leftBottomBar {
+  flex: 1;
+  font-family: sans-serif;
+}
+.lastBottomBar {
+  text-align: center;
+  
+}
+.lastBottomBar p {
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  font-family: sans-serif;
+}
+.projectContainer {
+  width: 50%;
+  border-radius: 20px;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2); 
+  margin: 0 auto;
+  border-color: rgb(219, 213, 213);
+  padding: 15px;
+  cursor: pointer;
+}
+.projectContainer:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.6); 
+}
+
+.mainProject {
+  padding: 0px 40px;
+ 
+}
+.mainProject2 {
+   
+}
+.projectImageContainer img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.projectImageContainer {
+  height: 60%
+}
+.downSection {
+  height: 40%;
+  margin-top: 10px;
+}
+.downWriting a img{
+  width: 10%;
+  height: 10%;
+  border-radius: 100%;
+}
+.downWriting  {
+  text-align: center;
+}
+.oneAbout {
+  background: #7510F7;
+  text-align: center;
+  display: none;
+  padding: 30px 30px;
+  color: white
+}
+#newWriting{
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 1.25rem;
+}
+.oneService {
+  display: none;
+  text-align: center;
+}
+.newService {
+  box-shadow: -1px 2px 30px rgba(0, 0, 0, 0.2);
+  margin: 40px 40px;
+  padding-bottom: 20px; 
+  border-radius: 30px;
+  border: #E6ECF8;
+}
+.newService div img {
+  width: 20%;
+  border-radius: 100%;
+}
+.newService div span {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.oneProject {
+  display: none;
+  padding: 0px 80px;
+}
+.contactBox {
+  box-shadow: -1px 2px 30px rgba(0, 0, 0, 0.2); 
+  border-radius: 5px;
+  margin: 50px 150px 50px 150px;
+  padding: 30px;
+}
+.contactBox form {
+  
+}
+.contactBox form label {
+  color: #666;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: left;
+  font-family: cursive;
+}
+.contactBox form input {
+  width: 100%;
+  height: 40px;
+  font-family: cursive;
+  padding-left: 10px;
+  background: #f0f0f0;
+  border: 1px solid #ebebeb;
+}
+.contactBox form div textarea {
+  width: 100%;
+  background: #f0f0f0;
+  border: 1px solid #ebebeb;
+  font-family: cursive;
+  padding-left: 10px;
+  height: 150px;
+  resize: none;
+}
+.contact_form_field {
+  margin-bottom: 1rem;
+  padding: 20px;
+}
+#submitContainer {
+  text-align: end;
+}
+#submitContainer button{
+  cursor: pointer;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 15px 50px;
+  border-radius: 5px;
+  border: none;
+  background: #7510F7;
+  color: white;
+  font-weight: bold
+}
+
+@media only screen and (max-width: 1024px) {
+  .NavRightSide ul {
+    display: none
   }
-  to {
-    transform: rotate(360deg);
+  .oneAbout {
+    
+    display: block
+  }
+  
+  .oneService {
+    display: block;
+  }
+  .oneProject  {
+    display: block
+  }
+  .projectContainer {
+    width: 80%;
+    
+    border-radius: 20px;
+    box-shadow: -1px 2px 30px rgba(0, 0, 0, 0.2); 
+    margin: 0 auto;
+    border-color: rgb(219, 213, 213);
+    padding: 15px;
+    cursor: pointer;
+  }
+  .projectImageContainer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .projectImageContainer {
+    height: 60%;
+    
+  }
+  .contactBox {
+    
+    margin: 50px 80px 50px 80px;
+    
   }
 }
+
+@media only screen and (max-width: 1000px) {
+  .newService {
+    margin: 40px 15px;
+  }
+  .newService p{
+    font-size: 18px;
+  }
+  .projectContainer {
+    width: 100%;
+    
+    border-radius: 20px;
+    box-shadow: -1px 2px 30px rgba(0, 0, 0, 0.2); 
+    margin: 0 auto;
+    border-color: rgb(219, 213, 213);
+    padding: 15px;
+    cursor: pointer;
+  }
+  .oneProject {
+   padding: 0px 40px 
+   
+  }
+  .Body {
+    text-align: center;
+    padding:  50px 10px 0px 10px;
+    
+  }
+  .BottomBar {
+  
+    display: block;
+    
+    
+  }
+  .rightBottomBar {
+    flex: 1;
+    text-align: start;
+  }
+  .mainBottomBar {
+    
+    padding: 40px 30px 0px 30px;
+    
+  }
+  .lastBottomBar p {
+    font-family: sans-serif;
+  }
+  .leftBottomBar {
+    
+  }
+  .NavLastSide {
+    display: block;
+  }
+  .contactBox {
+    margin: 50px 20px 50px 20px;
+  }
+  #submitContainer button{
+    cursor: pointer;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    background: #7510F7;
+    color: white;
+    font-weight: bold
+  }
+  .Projects p {
+    font-size: 15px;
+    padding: 10px
+  }
+  
+}
+
