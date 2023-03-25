@@ -3,22 +3,16 @@ import instagram from '../assets/instagram.jpg'
 import linkedin from '../assets/linkedin.jpg'
 import twitter from '../assets/twitter.jpg'
 import bitbucket from '../assets/bitbucket.jpeg'
-import facebook from '../assets/facebook.png'
 import avater from '../assets/avater.jpg'
-import { useState } from 'react'
 import emailjs from '@emailjs/browser'
 import { useRef } from 'react'
 
 
 function Contact() {
-    const [name, setName] = useState('')
-    const [email, setEmail] = useState('')
-    const [message, setMessage] = useState('')
 
     const form = useRef()
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log('fhdnjhgbd')
         emailjs.sendForm('service_cbcb9br', 'template_r8q4o9s', form.current, 'IUXdmkclPimh5PcC9')
         .then((result) => {
             console.log(result.text);
@@ -34,15 +28,14 @@ function Contact() {
                     <h1 className="contactName">contact.</h1>
                     <p> Get in touch with me via social <br/> media or email</p>
                     <ul>
-                        <li><a href="https://twitter.com/Divyblaq"><img src={twitter}/> </a></li>
-                        <li><a href="https://www.instagram.com/divy_blaq/"><img src={instagram}/> </a></li>
-                        <li><a href="#"><img src={facebook}/> </a></li>
-                        <li><a href="https://www.linkedin.com/in/divine-christian-324b97236/"><img src={linkedin}/> </a></li>
-                        <li><a href="https://github.com/divywealth"><img src={github}/> </a></li>
-                        <li><a href="https://bitbucket.org/dashboard/overview"><img src={bitbucket}/> </a></li>
+                        <li><a href="https://twitter.com/Divyblaq"><img src={twitter} alt=""/> </a></li>
+                        <li><a href="https://www.instagram.com/divy_blaq/"><img src={instagram} alt=""/> </a></li>
+                        <li><a href="https://www.linkedin.com/in/divine-christian-324b97236/"><img src={linkedin} alt=""/> </a></li>
+                        <li><a href="https://github.com/divywealth"><img src={github} alt=""/> </a></li>
+                        <li><a href="https://bitbucket.org/dashboard/overview"><img src={bitbucket} alt=""/> </a></li>
                     </ul>
                 </div>
-                <div className="contactRight"><img src={avater}/></div>
+                <div className="contactRight"><img src={avater} alt=""/></div>
             </div>
 
             <section className="content">

@@ -17,6 +17,12 @@ function Body() {
             Link: "#",
             linkImg: git
         },
+        {
+            title: "fhfhffhfh",
+            pic: backgroundimg,
+            Link: "#",
+            linkImg: bit
+        },
 
     ]
     return (

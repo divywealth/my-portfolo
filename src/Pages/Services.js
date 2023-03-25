@@ -11,9 +11,15 @@ function Services() {
         {
             title: "fhfhffhfh",
             pic: backgroundimg,
-            Link: "#",
+            Link: "#", 
             linkImg: git
         },
+        {
+            title: "fhfhffhfh",
+            pic: backgroundimg,
+            Link: "#", 
+            linkImg: bit
+        }
 
     ]
     return (

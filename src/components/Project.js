@@ -1,8 +1,7 @@
-import background from '../assets/background.jpeg'
-import github from '../assets/github.jpg'
 
 
-import bitbucket from '../assets/bitbucket.jpeg'
+
+
 
 function Project(props) {
     const projects = props.projects
@@ -10,11 +9,11 @@ function Project(props) {
         <div>
             {projects.map((project) => (
                 <div className="projectContainer">
-                <section className="projectImageContainer"><img src={project.pic}/></section>
+                <section className="projectImageContainer"><img src={project.pic} alt="img not showing"/></section>
                 <section className="downSection">{project.title}</section>
                 <section className="downWriting">
-                    <a><img src={project.linkImg} alt="img not showing"/></a>
-                    <a></a> 
+                    <a href="https://github.com/divywealth"><img src={project.linkImg} alt="img not showing"/></a>
+                     
                 </section>
             </div>
             ))}

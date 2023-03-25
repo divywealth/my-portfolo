@@ -1,12 +1,20 @@
-import { useState } from "react";
+
+import emailjs from '@emailjs/browser'
+import { useRef } from 'react'
 
 
 function SayHello() {
-    const [name, setName] = useState()
-    const [email, setEmail] = useState('')
-    const [message, setMessage] = useState('')
-    const handleSubmit = (event) => {
-        event.preventDefault()
+    const form = useRef()
+    
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        emailjs.sendForm('service_cbcb9br', 'template_r8q4o9s', form.current, 'IUXdmkclPimh5PcC9')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        form.current.reset()
     }
     return (
         <div>
@@ -18,20 +26,25 @@ function SayHello() {
                 </div>
 
                 <div className="contactBox">
-                    <form onSubmit={handleSubmit}>
+                    <form ref={form} onSubmit={handleSubmit}>
                         <div className="contact_form_field">
                             <label for="name">Name</label>
-                            <input placeholder="Enter your name" value={name} onChange={(e) => setName(e.target.value)}/>
+                            <input placeholder="Enter your name" type="text" name="user_name"/>
                         </div>
 
                         <div className="contact_form_field">
                             <label>Email</label>
-                            <input placeholder="Enter your email" value={email} onChange={(e) => setEmail(e.target.value)}></input>
+                            <input placeholder="Enter your email"  type="email" name="user_email"/>
+                        </div>
+
+                        <div className="contact_form_field">
+                            <label>Subject</label>
+                            <input placeholder="Enter Subject" type="text" name="subject"/>
                         </div>
 
                         <div className="contact_form_field">
                             <label>Message</label>
-                            <textarea placeholder="Enter your message" value={message} onChange={(e) => setMessage(e.target.value)}/>
+                            <textarea placeholder="Enter your message" type="message" name="message"/>
                         </div>
 
                         <div id="submitContainer">
