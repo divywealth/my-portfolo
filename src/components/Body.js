@@ -33,7 +33,7 @@ function Body() {
                 <h1>Frontend & Backend Developer</h1>
                 <p>Hi, I'm Onuora Divine. Nice to meet you</p>
                 <img src={avater} alt=""/>
-                <div><img src ={computer} alt=""/></div>
+                <div className="computerImg"><img src ={computer} alt=""/></div>
             </section>
 
             <section className="oneAbout">
@@ -60,6 +60,7 @@ function Body() {
                         <p>Font Awesome</p>
                         <p>UiKit</p>
                     </div>
+                    <hr/>
                     <div>
                         <img src={developer} alt="Images not displaying"/>
                         <h2>Backend Development</h2>
@@ -73,6 +74,7 @@ function Body() {
                         <p>Bitbucket</p>
                         <p>GitHub</p>
                     </div>
+                    <hr/>
                     <div>
                         <img src={developer} alt="Images not displaying"/>
                         <h2>Mobile Development</h2>
@@ -88,27 +90,27 @@ function Body() {
 
             <section className="oneProject">
                 <div >
-                <section className="Projects">
-                    <h1>PROJECTS</h1>
-                    <div></div>
-                    <p>Here you will find my personal projects i created </p>
-                </section>
+                    <section className="Projects">
+                        <h1>PROJECTS</h1>
+                        <div></div>
+                        <p>Here you will find my personal projects i created </p>
+                    </section>
 
-                <section >
-                    
-                        {projects.map((project) => (
-                            <div>
-                                <section className="mobileProjectImg"><img src={project.pic} alt=""/></section>
-                                <section className="downSection"><span>{project.title}</span></section>
-                                <section className="projectDescription">{project.description}</section>
-                                <div className="projectBotton"><button>VIEW WEBSITE</button></div>
-                            </div>
-                        ))}
-                    
-                </section>
-                
+                    <section >
+                        
+                            {projects.map((project) => (
+                                <div>
+                                    <section className="mobileProjectImg"><img src={project.pic} alt=""/></section>
+                                    <section className="downSection"><span>{project.title}</span></section>
+                                    <section className="projectDescription">{project.description}</section>
+                                    <div className="projectBotton"><button>VIEW WEBSITE</button></div>
+                                </div>
+                            ))}
+                        
+                    </section>
                 </div>
             </section>
+            
         </div>
     )
 }

@@ -49,22 +49,22 @@ function Contact() {
                     <form ref={form} onSubmit={handleSubmit}>
                         <div className="contact_form_field">
                             <label for="name">Name</label>
-                            <input placeholder="Enter your name" type="text" name="user_name" />
+                            <input placeholder="Enter your name" type="text" name="user_name" required/>
                         </div>
 
                         <div className="contact_form_field">
                             <label>Email</label>
-                            <input placeholder="Enter your email" type="email"  name="user_email"></input>
+                            <input placeholder="Enter your email" type="email"  name="user_email" required></input>
                         </div>
 
                         <div className="contact_form_field">
                             <label>Subject</label>
-                            <input placeholder="Enter Subject" type="text" name="subject" />
+                            <input placeholder="Enter Subject" type="text" name="subject" required/>
                         </div>
 
                         <div className="contact_form_field">
                             <label>Message</label>
-                            <textarea placeholder="Enter your message" name="message"/>
+                            <textarea placeholder="Enter your message" name="message" required/>
                         </div>
 
                         <div id="submitContainer">

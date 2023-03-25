@@ -8,6 +8,12 @@ import bitbucket from '../assets/bitbucket.jpeg'
 function BottomBar() {
     return (
         <div className="mainBottomBar">
+            <section className="signInSection">
+                <div className="signInSectionHeader"> <h1>Start a project</h1></div>
+                <div className="signInSectionDiscription">Interested in working together? We should queue up a time to chat. I’ll buy the coffee.</div>
+                <div className="signInSectionButton"> <button>Let's Do This</button></div>
+            </section>
+
             <div className="BottomBar">
                 <div className="leftBottomBar">
                     <h2>ONUORA DIVINE</h2>
