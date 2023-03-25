@@ -443,6 +443,11 @@ body {
   .newService p{
     font-size: 18px;
   }
+  .NavLeftSide img {
+    height: 100%;
+    width: 50%;
+    border-radius: 100%;
+  }
   .projectContainer {
     width: 100%;
     
