@@ -356,7 +356,7 @@ body {
   font-weight: 700;
   margin-bottom: 1rem;
   text-align: left;
-  font-family: cursive;
+  font-family: sans-serif;
 }
 .contactBox form input {
   width: 100%;
@@ -370,7 +370,7 @@ body {
   width: 100%;
   background: #f0f0f0;
   border: 1px solid #ebebeb;
-  font-family: cursive;
+  font-family: sans-serif;
   padding-left: 10px;
   height: 150px;
   resize: none;
@@ -383,6 +383,7 @@ body {
   text-align: end;
 }
 #submitContainer button{
+  font-family: sans-serif;
   cursor: pointer;
   letter-spacing: 1px;
   display: inline-block;
