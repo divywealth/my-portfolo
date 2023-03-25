@@ -516,11 +516,10 @@ body {
     font-size: 18px 
   }
   .NavLastSide button {
-    background-color: white;
-    display: block;
-    padding: 10px 25px;
-    border-radius: 50px;
-    font-size: 15px;
+    display: inline-block;
+    padding: 5px 17px;
+    border-radius: 20px;
+    cursor: pointer;
     transition: 0.3s ease-out;
     font-family: sans-serif;
     border: 1px solid #7510F7;
