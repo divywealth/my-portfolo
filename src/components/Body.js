@@ -30,8 +30,8 @@ function Body() {
             <section className="Body">
                 <h1>Frontend & Backend Developer</h1>
                 <p>Hi, I'm Onuora Divine. Nice to meet you</p>
-                <img src={avater}/>
-                <div><img src ={computer}/></div>
+                <img src={avater} alt=""/>
+                <div><img src ={computer} alt=""/></div>
             </section>
 
             <section className="oneAbout">

@@ -3,7 +3,7 @@ import instagram from '../assets/instagram.jpg'
 import linkedin from '../assets/linkedin.jpg'
 import twitter from '../assets/twitter.jpg'
 import bitbucket from '../assets/bitbucket.jpeg'
-import facebook from '../assets/facebook.png'
+
 
 function BottomBar() {
     return (
@@ -15,11 +15,11 @@ function BottomBar() {
                 </div>
                 <div className="rightBottomBar">
                     <h2>SOCIAL</h2>
-                    <a href="https://github.com/divywealth"><img src={github}/></a>
-                    <a href="https://bitbucket.org/dashboard/overview"><img src={bitbucket}/></a>
-                    <a href="https://twitter.com/Divyblaq"><img src={twitter}/></a>
-                    <a href="https://www.instagram.com/divy_blaq/"><img src={instagram}/></a>
-                    <a href="https://www.linkedin.com/in/divine-christian-324b97236/"><img src={linkedin}/></a>
+                    <a href="https://github.com/divywealth"><img src={github} alt=""/></a>
+                    <a href="https://bitbucket.org/dashboard/overview"><img src={bitbucket} alt=""/></a>
+                    <a href="https://twitter.com/Divyblaq"><img src={twitter} alt=""/></a>
+                    <a href="https://www.instagram.com/divy_blaq/"><img src={instagram} alt=""/></a>
+                    <a href="https://www.linkedin.com/in/divine-christian-324b97236/"><img src={linkedin} alt=""/></a>
                 </div>
             </div>
             <hr/>
