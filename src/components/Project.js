@@ -8,14 +8,14 @@ function Project(props) {
     return(
         <div>
             {projects.map((project) => (
-                <div className="projectContainer">
-                <section className="projectImageContainer"><img src={project.pic} alt="img not showing"/></section>
-                <section className="downSection">{project.title}</section>
-                <section className="downWriting">
-                    <a href="https://github.com/divywealth"><img src={project.linkImg} alt="img not showing"/></a>
-                     
-                </section>
-            </div>
+                <div>
+                    <div className="projectContainer">
+                    <section className="projectImageContainer"><img src={project.pic} alt="img not showing"/></section>
+                    <section className="downSection"><span>{project.title}</span></section>
+                    </div>
+                    <div className="projectDescription">{project.description}</div>
+                    <div className="projectBotton"><button>VIEW WEBSITE</button></div>
+                </div>
             ))}
         </div>
     );

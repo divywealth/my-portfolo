@@ -4,7 +4,7 @@ import developer from '../assets/developer.jpg'
 import github from '../assets/github.jpg'
 import background from '../assets/background.jpeg'
 import bitbucket from '../assets/bitbucket.jpeg'
-import Project from "../components/Project";
+
 
 function Body() {
     const git = github
@@ -12,16 +12,18 @@ function Body() {
     const backgroundimg = background
     const projects = [
         {
-            title: "fhfhffhfh",
+            title: "TODO WEBSITE",
             pic: backgroundimg,
             Link: "#",
-            linkImg: git
+            linkImg: git,
+            description: "This is a todo website where the user is to add list of todo's and can be deleted when done"
         },
         {
             title: "fhfhffhfh",
             pic: backgroundimg,
             Link: "#",
-            linkImg: bit
+            linkImg: bit,
+            description: "This is a todo website where the user is to add list of todo's and can be deleted when done"
         },
 
     ]
@@ -94,7 +96,14 @@ function Body() {
 
                 <section >
                     
-                        <Project projects ={projects}/>
+                        {projects.map((project) => (
+                            <div>
+                                <section className="mobileProjectImg"><img src={project.pic} alt=""/></section>
+                                <section className="downSection"><span>{project.title}</span></section>
+                                <section className="projectDescription">{project.description}</section>
+                                <div className="projectBotton"><button>VIEW WEBSITE</button></div>
+                            </div>
+                        ))}
                     
                 </section>
                 

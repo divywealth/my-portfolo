@@ -9,16 +9,18 @@ function Services() {
     const backgroundimg = background
     const projects = [
         {
-            title: "fhfhffhfh",
+            title: "TODO WEBSITE",
             pic: backgroundimg,
             Link: "#", 
-            linkImg: git
+            linkImg: git,
+            description: "This is a todo website where the user is to add list of todo's and can be deleted when done"
         },
         {
             title: "fhfhffhfh",
             pic: backgroundimg,
             Link: "#", 
-            linkImg: bit
+            linkImg: bit,
+            description: "This is a todo website where the user is to add list of todo's and can be deleted when done"
         }
 
     ]

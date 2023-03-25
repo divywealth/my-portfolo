@@ -264,19 +264,37 @@ body {
   margin-bottom: 0;
   font-family: sans-serif;
 }
+.projectDescription {
+  text-align: center;
+}
 .projectContainer {
   width: 50%;
   border-radius: 20px;
-  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2); 
-  margin: 0 auto;
+  margin: 20px auto;
+  box-shadow: 2px 0px 20px 0px rgba(0, 0, 0, 0.2); 
   border-color: rgb(219, 213, 213);
   padding: 15px;
   cursor: pointer;
+  margin-bottom: 20px;
 }
-.projectContainer:hover {
-  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.6); 
+.projectBotton {
+  text-align: center;
+  margin: 20px 0px
 }
-
+.projectBotton button {
+  background-color: #7510F7;
+  color: white;
+  padding: 13px 20px;
+  border-radius: 10px;
+  border: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+.mobileProjectImg img{
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
 .mainProject {
   padding: 0px 40px;
  
@@ -294,15 +312,11 @@ body {
 }
 .downSection {
   height: 40%;
-  margin-top: 10px;
-}
-.downWriting a img{
-  width: 10%;
-  height: 10%;
-  border-radius: 100%;
-}
-.downWriting  {
   text-align: center;
+}
+.downSection span {
+  font-size: 25px;
+  font-weight: bold;
 }
 .oneAbout {
   background: #7510F7;
@@ -393,6 +407,9 @@ body {
   background: #7510F7;
   color: white;
   font-weight: bold
+}
+.contact_form_field label {
+  margin-bottom: 20px ;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -512,6 +529,9 @@ body {
   .contact_form_field input {
     font-size: 18px 
   }
+  .contact_form_field label {
+    margin-bottom: 10px ;
+  }
   .contact_form_field textarea {
     font-size: 18px 
   }
@@ -524,6 +544,10 @@ body {
     font-family: sans-serif;
     border: 1px solid #7510F7;
     color: black
+  }
+  .downSection span {
+    font-size: 20px;
+    
   }
 }
 
