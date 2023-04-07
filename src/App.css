@@ -1,9 +1,6 @@
 .App {
   text-align: center;
 }
-body {
-  
-}
 
 .Nav{
   height: 100px;
@@ -13,18 +10,11 @@ body {
   
 }
 
-.NavLeftSide {
-  
-}
 
 .NavLeftSide img {
   height: 100%;
   width: 100%;
   border-radius: 100%;
-}
-
-.NavRightSide {
- 
 }
 
 .NavRightSide ul {
@@ -106,9 +96,6 @@ body {
 .Service div img {
   width: 20%;
   border-radius: 100%;
-}
-.LastService {
-  
 }
 .firstService {
   border-right: 1px solid #E6ECF8;
@@ -222,49 +209,7 @@ body {
   color: #757575;
   line-height: 1.3;
 }
-.mainBottomBar {
-  background-color: #7510F7;
-  padding: 40px 60px 0px 60px;
-  margin-top: 20px;
-  color: white;
-  margin-top: 8rem;
-}
-.BottomBar {
-  
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  
-  
-}
-.rightBottomBar {
-  flex: 1;
-  text-align: end;
-}
-.rightBottomBar a img {
-  width: 30px;
-  border-radius: 100%;
-}
-.rightBottomBar h2 {
-  margin-right: 100px;
-}
-.rightBottomBar a {
-  padding-left: 10px;
-  cursor: pointer;
-}
-.leftBottomBar {
-  flex: 1;
-  font-family: sans-serif;
-}
-.lastBottomBar {
-  text-align: center;
-  
-}
-.lastBottomBar p {
-  padding-bottom: 10px;
-  margin-bottom: 0;
-  font-family: sans-serif;
-}
+
 .projectDescription {
   text-align: center;
 }
@@ -292,16 +237,19 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
+.projectBotton button a {
+  text-decoration: none;
+  color: white;
+}
 .mobileProjectImg img{
   border-radius: 20px;
   margin-bottom: 20px;
+  width: 100%;
+  height: 100%;
 }
 .mainProject {
   padding: 0px 40px;
  
-}
-.mainProject2 {
-   
 }
 .projectImageContainer img {
   width: 100%;
@@ -361,9 +309,6 @@ body {
   margin: 50px 150px 50px 150px;
   padding: 30px;
 }
-.contactBox form {
-  
-}
 .contactBox form label {
   color: #666;
   font-size: 16px;
@@ -412,36 +357,7 @@ body {
 .contact_form_field label {
   margin-bottom: 20px ;
 }
-.signInSection {
-  background-color: #141C3A;
-  margin: -8rem 40px 0px 40px;
-  border-radius: 20px;
-  color: white;
-  padding: 20px;
-  display: flex
-}
-.signInSectionHeader {
-  font-size: 20px;
-}
-.signInSectionDiscription {
-  
-}
-.signInSectionButton {
-  margin-top: 30px;
-  
-}
-.signInSectionButton button {
-  border: 1px solid #5BE9B9;
-  background: #141C3A;
-  color: white;
-  cursor: pointer;
-  
 
-}
-.signInSectionButton button:hover {
-  color: #141C3A;
-  background: #5BE9B9;
-}
 
 @media only screen and (max-width: 1024px) {
   .NavRightSide ul {
@@ -515,26 +431,7 @@ body {
     padding:  50px 10px 0px 10px;
     
   }
-  .BottomBar {
   
-    display: block;
-    
-    
-  }
-  .rightBottomBar {
-    flex: 1;
-    text-align: start;
-  }
-  .mainBottomBar {
-    padding: 40px 20px 0px 20px
-    
-  }
-  .lastBottomBar p {
-    font-family: sans-serif;
-  }
-  .leftBottomBar {
-    
-  }
   .NavLastSide {
     display: block;
   }
@@ -580,34 +477,7 @@ body {
     font-size: 20px;
     
   }
-  .signInSection {
-    
-    background-color: #141C3A;
-    margin: -9rem 10px 0px 10px;
-    border-radius: 10px;
-    color: white;
-    display: inline-block;
-    padding: 20px;
-    text-align: center;
-  }
-  .signInSectionHeader {
-    font-size: 20px;
-  }
-  .signInSectionButton button {
-    border: 1px solid #5BE9B9;
-    background: #141C3A;
-    color: white;
-    cursor: none;
-    padding: 13px 50px;
-    border-radius: 30px;
-    font-size: 20px;
-    margin-bottom: 40px;
   
-  }
-  .signInSectionDiscription {
-    line-height: 1.5;
-    font-size: 15px;
-  }
   
 }
 

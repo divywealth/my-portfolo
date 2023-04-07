@@ -1,11 +1,12 @@
 
 import emailjs from '@emailjs/browser'
 import { useRef } from 'react'
+import {useNavigate} from "react-router-dom"
 
 
 function SayHello() {
     const form = useRef()
-    
+    const navigate = useNavigate()
     const handleSubmit = (e) => {
         e.preventDefault()
         emailjs.sendForm('service_cbcb9br', 'template_r8q4o9s', form.current, 'IUXdmkclPimh5PcC9')
@@ -15,6 +16,7 @@ function SayHello() {
             console.log(error.text);
         });
         form.current.reset()
+        navigate("/sent")
     }
     return (
         <div>

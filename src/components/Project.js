@@ -14,7 +14,7 @@ function Project(props) {
                     <section className="downSection"><span>{project.title}</span></section>
                     </div>
                     <div className="projectDescription">{project.description}</div>
-                    <div className="projectBotton"><button>VIEW WEBSITE</button></div>
+                    <div className="projectBotton"><button><a href={project.Link}>VIEW WEBSITE</a></button></div>
                 </div>
             ))}
         </div>

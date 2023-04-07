@@ -1,8 +1,10 @@
-import github from '../assets/github.jpg'
-import instagram from '../assets/instagram.jpg'
-import linkedin from '../assets/linkedin.jpg'
-import twitter from '../assets/twitter.jpg'
-import bitbucket from '../assets/bitbucket.jpeg'
+import github from '../../assets/github.jpg'
+import instagram from '../../assets/instagram.jpg'
+import linkedin from '../../assets/linkedin.jpg'
+import twitter from '../../assets/twitter.jpg'
+import bitbucket from '../../assets/bitbucket.jpeg'
+import { Link } from 'react-router-dom'
+import './BottomBar.css'
 
 
 function BottomBar() {
@@ -11,7 +13,7 @@ function BottomBar() {
             <section className="signInSection">
                 <div className="signInSectionHeader"> <h1>Start a project</h1></div>
                 <div className="signInSectionDiscription">Interested in working together? We should queue up a time to chat. I’ll buy the coffee.</div>
-                <div className="signInSectionButton"> <button>Let's Do This</button></div>
+                <div className="signInSectionButton"> <Link to="/sayHello"><button>Let's Do This</button></Link></div>
             </section>
 
             <div className="BottomBar">

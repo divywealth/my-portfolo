@@ -1,0 +1,42 @@
+.sentComponent {
+    margin: 10% 0;
+    text-align: center;
+} 
+.sentComponent div img {
+    height: 10%;
+    width: 10%
+}
+.sentComponentMessageOne {
+    font-size: 20px;
+}
+.sentComponentMessageThanks {
+    margin-top: -25px;
+    font-size: 16px;
+}
+.sentComponentMessageButton button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #7510F7;
+    font-size: 15px
+}
+.sentComponentMessageButton button:hover {
+    background: #7510F7;
+    color: white;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1000px) {
+    .sentComponent div img {
+        height: 40%;
+        width: 30%
+    }
+    .sentComponent {
+        margin: 50% 0;
+        text-align: center;
+    } 
+    .sentComponentMessageButton button {
+        padding: 9px 13px;
+        border-radius: 20px;
+        border: 1px solid #7510F7;
+        font-size: 14px
+    }
+}

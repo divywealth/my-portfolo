@@ -1,41 +1,31 @@
-import NavBar from './components/NavBar';
-import Body from './components/Body';
+
 import Services from './Pages/Services';
 import Contact from './Pages/Contact';
 import './App.css';
 import About from './Pages/About';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import BottomBar from './components/BottomBer';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import SayHello from './Pages/SayHello';
+import Sent from './Pages/Sent-Page/Sent';
+import HomePage from './Pages/HomePage';
 
 function App() {
   return (
     <Router>
       <div>
-        <div><NavBar/></div>
         <div>
-          <Switch>
-              <Route exact path="/">
-                <Body/>
-              </Route>
+          <Routes>
+              <Route exact path="/" element={<HomePage/>}/>
 
-              <Route path="/about">
-                <About/>
-              </Route>
+              <Route path="/about" element={<About/>}/>
 
-              <Route path="/services">
-                <Services/>
-              </Route>
+              <Route path="/services" element={<Services/>}/>
 
-              <Route path="/contact">
-                <Contact/>
-              </Route>
+              <Route path="/contact" element={<Contact/>}/>
 
-              <Route path="/sayHello">
-                <SayHello/>
-              </Route>
-          </Switch>
-          <div><BottomBar/></div>
+              <Route path="/sayHello" element={<SayHello/>}/>
+
+              <Route path="/sent" element={<Sent/>}/>
+          </Routes>
         </div>
         
 
