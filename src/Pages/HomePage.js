@@ -13,11 +13,11 @@ function HomePage() {
     const bit = bitbucket
     const projects = [
         {
-            title: "TODO WEBSITE",
+            title: "CARA SHOP",
             pic: carashop,
             Link: "https://cara-shop.herokuapp.com/#/",
             linkImg: git,
-            description: "This is a todo website where the user is to add list of todo's and can be deleted when done"
+            description: "This is a fake E-commerce website where costomers can purchase any wears of their choice"
         },
         {
             title: "fhfhffhfh",
