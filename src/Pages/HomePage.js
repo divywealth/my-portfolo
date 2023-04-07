@@ -4,6 +4,7 @@ import developer from '../assets/developer.jpg'
 import github from '../assets/github.jpg'
 import carashop from '../assets/cara-shop.jpg'
 import bitbucket from '../assets/bitbucket.jpeg'
+import Todolist from '../assets/Todo-List.jpg'
 import NavBar from '../components/NavBar';
 import BottomBar from '../components/BottomBar/BottomBar';
 
@@ -20,9 +21,9 @@ function HomePage() {
             description: "This is a fake E-commerce website where costomers can purchase any wears of their choice"
         },
         {
-            title: "fhfhffhfh",
-            pic: carashop,
-            Link: "https://cara-shop.herokuapp.com/#/",
+            title: "TODO-LIST",
+            pic: Todolist,
+            Link: "https://divy-todo.netlify.app",
             linkImg: bit,
             description: "This is a todo website where the user is to add list of todo's and can be deleted when done"
         },

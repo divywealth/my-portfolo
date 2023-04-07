@@ -4,6 +4,7 @@ import Project from "../components/Project";
 import NavBar from '../components/NavBar';
 import BottomBar from '../components/BottomBar/BottomBar';
 import carashop from '../assets/cara-shop.jpg'
+import Todolist from '../assets/Todo-List.jpg'
 
 function Services() {
     const git = github
@@ -14,12 +15,12 @@ function Services() {
             pic: carashop,
             Link: "https://cara-shop.herokuapp.com/#/", 
             linkImg: git,
-            description: "This is a fake E-commerce website where costomers can purchase any wears of their choice"
+            description: "This is an E-commerce website where costomers can purchase any wears of their choice"
         },
         {
-            title: "fhfhffhfh",
-            pic: carashop,
-            Link: "https://cara-shop.herokuapp.com/#/", 
+            title: "TODO-LIST",
+            pic: Todolist,
+            Link: "https://divy-todo.netlify.app", 
             linkImg: bit,
             description: "This is a todo website where the user is to add list of todo's and can be deleted when done"
         }
