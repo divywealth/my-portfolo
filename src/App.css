@@ -242,12 +242,13 @@
   color: white;
 }
 .mobileProjectImg {
-  box-shadow: 2px 0px 20px 0px rgba(0, 0, 0, 0.2);
-  border-radius: 20px;
+  
+  
   margin-bottom: 20px;
 }
 .mobileProjectImg img{
-  
+  box-shadow: 2px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
   width: 100%;
   height: 100%;
   
