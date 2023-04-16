@@ -62,6 +62,7 @@ function HomePage() {
                         <p>GitHub</p>
                         <p>Font Awesome</p>
                         <p>UiKit</p>
+                        <p>AWS(EC2,S3)</p>
                     </div>
                     <hr/>
                     <div>
