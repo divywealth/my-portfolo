@@ -1,6 +1,6 @@
 import developer from '../assets/developer.jpg'
 import avater from '../assets/avater.jpg'
-import NavBar from '../components/NavBar';
+import NavBar from '../components/NavBar/NavBar';
 import BottomBar from '../components/BottomBar/BottomBar';
 
 function About() {

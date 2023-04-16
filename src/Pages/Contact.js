@@ -8,7 +8,7 @@ import emailjs from '@emailjs/browser'
 import { useRef } from 'react'
 import {useNavigate} from "react-router-dom"
 import BottomBar from '../components/BottomBar/BottomBar'
-import NavBar from '../components/NavBar'
+import NavBar from '../components/NavBar/NavBar'
 
 
 function Contact() {

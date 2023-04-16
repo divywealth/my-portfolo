@@ -5,8 +5,9 @@ import github from '../assets/github.jpg'
 import carashop from '../assets/cara-shop.jpg'
 import bitbucket from '../assets/bitbucket.jpeg'
 import Todolist from '../assets/Todo-List.jpg'
-import NavBar from '../components/NavBar';
+import NavBar from '../components/NavBar/NavBar';
 import BottomBar from '../components/BottomBar/BottomBar';
+
 
 
 function HomePage() {
