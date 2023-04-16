@@ -24,7 +24,7 @@
     color: white;
     cursor: pointer;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 500px) {
     .sentComponent div img {
         height: 40%;
         width: 30%
