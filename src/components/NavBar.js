@@ -13,6 +13,7 @@ function NavBar() {
                     <Link to="/about"><li>About</li></Link>
                     <Link to="/services"><li>Projects</li></Link>
                     <Link to="/contact"><li>Contact</li></Link>
+                    <a href="https://frsc-bucket.s3.eu-west-1.amazonaws.com/ONUORA+DIVINE+LATEST+1.pdf"><li>My Resume</li></a>
                 </ul>
             </div>
             <div className="NavLastSide">

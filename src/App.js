@@ -7,6 +7,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import SayHello from './Pages/SayHello';
 import Sent from './Pages/Sent-Page/Sent';
 import HomePage from './Pages/HomePage';
+import NotFound from './Pages/NotFound/NotFound';
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
               <Route path="/sayHello" element={<SayHello/>}/>
 
               <Route path="/sent" element={<Sent/>}/>
+
+              <Route path = "/*" element={<NotFound/>}/>
           </Routes>
         </div>
         

@@ -6,27 +6,27 @@ import BottomBar from '../components/BottomBar/BottomBar';
 function About() {
     return (
         <div>
-            <div><NavBar/></div>
-            <div className="About"> 
-            <section>
+            <div><NavBar /></div>
+            <div className="About">
+                <section>
                     <h1>About Me.</h1>
                     <div className="aboutSpliting">
-                        <div> 
+                        <div>
                             <p className="aboutContent">I'm Divine based in lagos state. I'm a frontend developer and also a backend developer(Fullstack), I love creating things that are
                                 live on the internet. My interest in tech started back in 2019 had a lot of time working on HTML, CSS and Javascript and understanding the concept.
                                 In the years, I’ve cultivated my passion for coding by studying the IT field, but most of all
                                 have had the opportunity to learn certain Javascript frameworks(VueJs, Reactjs) and also Backend Development and build demo projects.
-                                
-                                I’m now looking for a junior dev position to finally kick start my career and learn among professionals. 
+
+                                I’m now looking for a junior dev position to finally kick start my career and learn among professionals.
 
                             </p>
                         </div>
-                        <div> <img src={avater} alt="img not showing"/></div>
+                        <div> <img src={avater} alt="img not showing" /></div>
                     </div>
-            </section>
-            <div className="Service">
-                    <div className= "firstService">
-                        <img src={developer} alt="Images not displaying"/>
+                </section>
+                <div className="Service">
+                    <div className="firstService">
+                        <img src={developer} alt="Images not displaying" />
                         <h2>Frontend Development(Web)</h2>
                         <p className="paragraphGreenColor">Languages I speak</p>
                         <span>HTML, CSS, Javascript, ReactJs, VueJs</span>
@@ -36,11 +36,12 @@ function About() {
                         <p>GitHub</p>
                         <p>Font Awesome</p>
                         <p>UiKit</p>
+                        <p>AWS(EC2, S3)</p>
                     </div>
-                    <div className= "secondService">
-                        <img src={developer} alt="Images not displaying"/>
+                    <div className="secondService">
+                        <img src={developer} alt="Images not displaying" />
                         <h2>Backend Development</h2>
-                        <p className= "paragraphGreenColor">Languages I speak</p>
+                        <p className="paragraphGreenColor">Languages I speak</p>
                         <span>NodeJs, ExpressJs, SailsJs, NestJs</span>
                         <p className="paragraphGreenColor">Dev Tools</p>
                         <p>Visual Studio Code</p>
@@ -50,8 +51,8 @@ function About() {
                         <p>Bitbucket</p>
                         <p>GitHub</p>
                     </div>
-                    <div className= "LastService">
-                        <img src={developer} alt="Images not displaying"/>
+                    <div className="LastService">
+                        <img src={developer} alt="Images not displaying" />
                         <h2>Mobile Development</h2>
                         <p className="paragraphGreenColor">Languages I speak</p>
                         <span>Flutter, Dart</span>
@@ -61,9 +62,9 @@ function About() {
                         <p>GitHub</p>
                     </div>
                 </div>
-                    
+
             </div>
-            <div><BottomBar/></div>
+            <div><BottomBar /></div>
         </div>
     )
 }
