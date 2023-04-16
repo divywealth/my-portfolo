@@ -80,7 +80,7 @@
     margin-bottom: 0;
     font-family: sans-serif;
   }
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 1000px) {
     .BottomBar {
   
         display: block;
@@ -100,9 +100,8 @@
       }
       
       .signInSection {
-    
         background-color: #141C3A;
-        margin: -9rem 10px 0px 10px;
+        margin: -9rem 20px 0px 50px;
         border-radius: 10px;
         color: white;
         display: inline-block;
@@ -127,4 +126,15 @@
         line-height: 2;
         font-size: 15px;
       }
+  }
+  @media only screen and (max-width: 500px) {
+    .signInSection {
+      background-color: #141C3A;
+      margin: -9rem 10px 0px 10px;
+      border-radius: 10px;
+      color: white;
+      display: inline-block;
+      padding: 20px;
+      text-align: center;
+    }
   }
