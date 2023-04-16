@@ -317,16 +317,16 @@
   margin: 50px 150px 50px 150px;
   padding: 30px;
 }
-.contactBox form label {
+.contact_form_field label {
   color: #666;
   font-size: 16px;
   letter-spacing: 1px;
   font-weight: 700;
-  margin-bottom: 1rem;
   text-align: left;
   font-family: sans-serif;
 }
 .contactBox form input {
+  margin-top: 4px;
   width: 100%;
   height: 40px;
   font-family: sans-serif;
@@ -342,6 +342,7 @@
   padding-left: 10px;
   height: 150px;
   resize: none;
+  margin-top: 4px;
 }
 .contact_form_field {
   margin-bottom: 1rem;
@@ -446,6 +447,7 @@
  
   .contactBox {
     margin: 50px 20px 50px 20px;
+    padding: 10px 10px 10px 4px;
   }
   #submitContainer button{
     cursor: pointer;
