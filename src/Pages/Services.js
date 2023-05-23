@@ -13,7 +13,7 @@ function Services() {
         {
             title: "CARA-SHOP",
             pic: carashop,
-            Link: "https://cara-shop.herokuapp.com/#/", 
+            Link: "http://cara-shop.herokuapp.com/",
             linkImg: git,
             description: "This is an E-commerce website where costomers can purchase any wears of their choice"
         },
