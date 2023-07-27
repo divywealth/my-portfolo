@@ -17,7 +17,7 @@ function HomePage() {
         {
             title: "CARA SHOP",
             pic: carashop,
-            Link: "http://cara-shop.herokuapp.com/",
+            Link: "https://cara-shop-gamma.vercel.app",
             linkImg: git,
             description: "This is a fake E-commerce website where costomers can purchase any wears of their choice"
         },
