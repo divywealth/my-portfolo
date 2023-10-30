@@ -33,7 +33,7 @@ function HomePage() {
       pic: Todolist,
       Link: "https://divy-todo.netlify.app",
       codebaseImg: github,
-      codebaseLink: "https://github.com/divywealth/Slang-web",
+      codebaseLink: "https://github.com/divywealth/todo-project",
       description:
         "This is a todo website where the user is to add list of todo's and can be deleted when done",
     },
