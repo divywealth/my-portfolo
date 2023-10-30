@@ -185,14 +185,24 @@
   font-family: sans-serif;
   font-weight: bold;
   cursor: pointer;
+  margin-right: 15px;
 }
 .projectBotton button a {
   text-decoration: none;
   color: white;
 }
+.project-link-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.github-image {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  cursor: pointer;
+}
 .mobileProjectImg {
-  
-  
   margin-bottom: 20px;
 }
 .mobileProjectImg img{

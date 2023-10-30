@@ -3,7 +3,7 @@ import './Sent.css'
 function Sent() {
     return (
         <div className="sentComponent">
-            <div><img src="https://frsc-bucket.s3.eu-west-1.amazonaws.com/Done.jpg" alt="Not showing"/></div>
+            <div><img src="https://res.cloudinary.com/de9ktuoh1/image/upload/v1698679641/hawta6yfumfprveldaoq.png" alt="Not showing"/></div>
             <div className="sentComponentName"></div>
             <div className="sentComponentMessageOne"><h1>Message Sent.</h1></div>
             <div className="sentComponentMessageThanks"><h1>Thanks!</h1></div>
