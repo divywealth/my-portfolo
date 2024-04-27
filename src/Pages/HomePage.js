@@ -55,16 +55,29 @@ function HomePage() {
       <section className="oneAbout">
         <h1>About Me.</h1>
         <p id="newWriting">
-          I'm Divine based in lagos state. I'm a frontend developer and also a
-          backend developer(Fullstack), I love creating things that are live on
-          the internet. My interest in tech started back in 2019 had a lot of
-          time working on HTML, CSS and Javascript and understanding the
-          concept. In the years, I’ve cultivated my passion for coding by
-          studying the IT field, but most of all have had the opportunity to
-          learn certain Javascript frameworks(VueJs, Reactjs) and also Backend
-          Development and build demo projects. I’m now looking for a junior dev
-          position to finally kick start my career and learn among
-          professionals.
+          I'm a junior web developer with a passion for creating engaging user
+          experiences and bringing ideas to life through code. With two years of
+          experience as both a junior developer and intern, I've immersed myself
+          in the world of Fullstack development, specializing in web
+          technologies. My journey in web development started with a desire to
+          build dynamic and interactive websites that captivate users. During my
+          internship and subsequent role as a junior developer, I've had the
+          opportunity to work on various projects, gaining hands-on experience
+          in frontend and backend development. I thrive in the fast-paced
+          environment of web development, where creativity and problem-solving
+          skills are essential. My toolkit includes languages like JavaScript,
+          HTML, and CSS along with frameworks such as React, Vue.js, and
+          Nodejs(Nestjs). I'm comfortable working with databases, RESTful APIs,
+          and deployment tools, ensuring that every aspect of a web application
+          functions seamlessly. As a junior web developer, I approach every
+          project with enthusiasm and a commitment to delivering high-quality
+          results. Whether it's optimizing website performance, implementing new
+          features, or troubleshooting issues, I'm dedicated to producing clean,
+          efficient code that meets both user needs and business objectives. I'm
+          excited about the endless possibilities in web development and eager
+          to continue learning and growing in this dynamic field. I look forward
+          to contributing my skills to innovative projects and making a positive
+          impact in the digital world.
         </p>
       </section>
 
