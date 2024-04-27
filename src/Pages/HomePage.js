@@ -82,7 +82,7 @@ function HomePage() {
             {text}{" "}
             <span
               onClick={toggleShowAll}
-              style={{ color: "blue", cursor: "pointer" }}
+              style={{ color: "grey" }}
             >
               Collapse
             </span>
@@ -92,7 +92,7 @@ function HomePage() {
             {text.length > maxLength ? text.slice(0, maxLength) + "..." : text}
             <span
               onClick={toggleShowAll}
-              style={{ color: "blue", cursor: "pointer" }}
+              style={{ color: "grey"}}
             >
               Read more
             </span>
