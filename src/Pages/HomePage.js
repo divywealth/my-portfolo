@@ -6,6 +6,7 @@ import carashop from "../assets/cara-shop.jpg";
 import NavBar from "../components/NavBar/NavBar";
 import Slang from "../assets/slang-img.png";
 import BottomBar from "../components/BottomBar/BottomBar";
+import { useState } from "react";
 
 function HomePage() {
   const projects = [
@@ -28,6 +29,38 @@ function HomePage() {
         "Nigeria slangs is widely accepted at the moment most especially slangs used in Afro musics. Different countries are interested in Nigeria slang so this website is for understanding Nigeria slang better and its meaning",
     },
   ];
+
+  const text = `I'm a junior web developer with a passion for creating engaging user
+  experiences and bringing ideas to life through code. With two years of
+  experience as both a junior developer and intern, I've immersed myself
+  in the world of Fullstack development, specializing in web
+  technologies. My journey in web development started with a desire to
+  build dynamic and interactive websites that captivate users. During my
+  internship and subsequent role as a junior developer, I've had the
+  opportunity to work on various projects, gaining hands-on experience
+  in frontend and backend development. I thrive in the fast-paced
+  environment of web development, where creativity and problem-solving
+  skills are essential. My toolkit includes languages like JavaScript,
+  HTML, and CSS along with frameworks such as React, Vue.js, and
+  Nodejs(Nestjs). I'm comfortable working with databases, RESTful APIs,
+  and deployment tools, ensuring that every aspect of a web application
+  functions seamlessly. As a junior web developer, I approach every
+  project with enthusiasm and a commitment to delivering high-quality
+  results. Whether it's optimizing website performance, implementing new
+  features, or troubleshooting issues, I'm dedicated to producing clean,
+  efficient code that meets both user needs and business objectives. I'm
+  excited about the endless possibilities in web development and eager
+  to continue learning and growing in this dynamic field. I look forward
+  to contributing my skills to innovative projects and making a positive
+  impact in the digital world.`;
+
+  const maxLength = 250;
+
+  const [showAll, setShowAll] = useState(false);
+
+  const toggleShowAll = () => {
+    setShowAll(!showAll);
+  };
   return (
     <div>
       <div>
@@ -44,31 +77,27 @@ function HomePage() {
 
       <section className="oneAbout">
         <h1>About Me.</h1>
-        <p id="newWriting">
-          I'm a junior web developer with a passion for creating engaging user
-          experiences and bringing ideas to life through code. With two years of
-          experience as both a junior developer and intern, I've immersed myself
-          in the world of Fullstack development, specializing in web
-          technologies. My journey in web development started with a desire to
-          build dynamic and interactive websites that captivate users. During my
-          internship and subsequent role as a junior developer, I've had the
-          opportunity to work on various projects, gaining hands-on experience
-          in frontend and backend development. I thrive in the fast-paced
-          environment of web development, where creativity and problem-solving
-          skills are essential. My toolkit includes languages like JavaScript,
-          HTML, and CSS along with frameworks such as React, Vue.js, and
-          Nodejs(Nestjs). I'm comfortable working with databases, RESTful APIs,
-          and deployment tools, ensuring that every aspect of a web application
-          functions seamlessly. As a junior web developer, I approach every
-          project with enthusiasm and a commitment to delivering high-quality
-          results. Whether it's optimizing website performance, implementing new
-          features, or troubleshooting issues, I'm dedicated to producing clean,
-          efficient code that meets both user needs and business objectives. I'm
-          excited about the endless possibilities in web development and eager
-          to continue learning and growing in this dynamic field. I look forward
-          to contributing my skills to innovative projects and making a positive
-          impact in the digital world.
-        </p>
+        {showAll ? (
+          <p id="newWriting">
+            {text}{" "}
+            <span
+              onClick={toggleShowAll}
+              style={{ color: "blue", cursor: "pointer" }}
+            >
+              Collapse
+            </span>
+          </p>
+        ) : (
+          <p>
+            {text.length > maxLength ? text.slice(0, maxLength) + "..." : text}
+            <span
+              onClick={toggleShowAll}
+              style={{ color: "blue", cursor: "pointer" }}
+            >
+              Read more
+            </span>
+          </p>
+        )}
       </section>
 
       <section className="oneService">
