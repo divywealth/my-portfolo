@@ -30,29 +30,13 @@ function HomePage() {
     },
   ];
 
-  const text = `I'm a junior web developer with a passion for creating engaging user
-  experiences and bringing ideas to life through code. With two years of
-  experience as both a junior developer and intern, I've immersed myself
-  in the world of Fullstack development, specializing in web
-  technologies. My journey in web development started with a desire to
-  build dynamic and interactive websites that captivate users. During my
-  internship and subsequent role as a junior developer, I've had the
-  opportunity to work on various projects, gaining hands-on experience
-  in frontend and backend development. I thrive in the fast-paced
-  environment of web development, where creativity and problem-solving
-  skills are essential. My toolkit includes languages like JavaScript,
-  HTML, and CSS along with frameworks such as React, Vue.js, and
-  Nodejs(Nestjs). I'm comfortable working with databases, RESTful APIs,
-  and deployment tools, ensuring that every aspect of a web application
-  functions seamlessly. As a junior web developer, I approach every
-  project with enthusiasm and a commitment to delivering high-quality
-  results. Whether it's optimizing website performance, implementing new
-  features, or troubleshooting issues, I'm dedicated to producing clean,
-  efficient code that meets both user needs and business objectives. I'm
-  excited about the endless possibilities in web development and eager
-  to continue learning and growing in this dynamic field. I look forward
-  to contributing my skills to innovative projects and making a positive
-  impact in the digital world.`;
+  const text = `I'm a Fullstack Developer with a passion for building robust and user-friendly web applications. Over the past two years, I've gained valuable experience working on a variety of projects, from frontend interfaces to backend systems. My journey in web development started with a desire to create seamless and dynamic user experiences, and since then, I've honed my skills in both client-side and server-side technologies.
+
+  Throughout my career, I've worked with a wide range of technologies, including JavaScript, HTML, CSS, and frameworks such as React, Vue.js, and Node.js (NestJS). My expertise extends to database management, RESTful APIs, and deployment tools, ensuring that every component of a web application is well-integrated and performs optimally.
+  
+  I thrive on problem-solving and am always eager to tackle new challenges. Whether it's developing new features, optimizing performance, or debugging complex issues, I approach every task with enthusiasm and attention to detail. My goal is to deliver high-quality, scalable solutions that not only meet business requirements but also enhance user experiences.
+  
+  As a Fullstack Developer, I'm excited about the future of web development and am constantly seeking opportunities to learn and grow. I'm looking forward to contributing my skills to innovative projects and making a meaningful impact in the tech industry.`;
 
   const maxLength = 250;
 
@@ -67,7 +51,7 @@ function HomePage() {
         <NavBar />
       </div>
       <section className="Body">
-        <h1>Frontend & Backend Developer</h1>
+        <h1>Fullstack Developer</h1>
         <p>Hi, I'm Onuora Divine. Nice to meet you</p>
         <img src={avater} alt="" />
         <div className="computerImg">
@@ -80,20 +64,14 @@ function HomePage() {
         {showAll ? (
           <p id="newWriting">
             {text}{" "}
-            <span
-              onClick={toggleShowAll}
-              style={{ color: "grey" }}
-            >
+            <span onClick={toggleShowAll} style={{ color: "grey" }}>
               Collapse
             </span>
           </p>
         ) : (
           <p>
             {text.length > maxLength ? text.slice(0, maxLength) + "..." : text}
-            <span
-              onClick={toggleShowAll}
-              style={{ color: "grey"}}
-            >
+            <span onClick={toggleShowAll} style={{ color: "grey" }}>
               Read more
             </span>
           </p>
@@ -125,7 +103,7 @@ function HomePage() {
             <p>Visual Studio Code</p>
             <p>TypeOrm</p>
             <p>Sequelize</p>
-            <p>MySql</p>
+            <p>MySql & Mongodb</p>
             <p>Bitbucket</p>
             <p>GitHub</p>
           </div>

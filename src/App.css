@@ -2,15 +2,9 @@
   text-align: center;
 }
 
-
-
-
-
-
 .Body {
   text-align: center;
-  padding-top:  50px;
-  
+  padding-top: 50px;
 }
 
 .Body h1 {
@@ -24,74 +18,73 @@
 
 .Body div img {
   width: 75%;
-  height: 100%
+  height: 100%;
 }
 
-.Service{
+.Service {
   margin-top: 20px;
   box-shadow: 0px 0px 2px 0px;
-  
+
   border-radius: 30px;
-  border: #E6ECF8;
+  border: #e6ecf8;
   display: flex;
   justify-content: space-between;
   padding: 0px 10px;
   text-align: center;
 }
 .Service div {
-  
-  width: 35%
+  width: 35%;
 }
 .Service div img {
   width: 20%;
   border-radius: 100%;
 }
 .firstService {
-  border-right: 1px solid #E6ECF8;
+  border-right: 1px solid #e6ecf8;
 }
 .secondService {
-  border-right: 1px solid #E6ECF8;
+  border-right: 1px solid #e6ecf8;
 }
 .About {
   padding: 0px 40px;
 }
-.About h1{
+.About h1 {
   font-size: 40px;
 }
 .aboutContent {
   line-height: 1.5;
   font-size: 20px;
   font-weight: bold;
-  font-family:sans-serif;
+  font-family: sans-serif;
 }
 .aboutSpliting {
   display: flex;
   flex-wrap: wrap;
   margin-top: -20px;
 }
-.aboutSpliting div{
-  flex: 1
+.aboutSpliting div {
+  flex: 1;
 }
 .aboutSpliting div img {
   width: 100%;
   height: 90%;
 }
 .paragraphGreenColor {
-  color:#7510F7
+  color: #7510f7;
 }
 .contact {
   display: flex;
   flex-wrap: wrap;
 }
 .contactLeft {
-  flex: 1
+  flex: 1;
 }
 .contactRight {
   flex: 1;
   align-items: center;
 }
 .contactRight img {
-  width: 100%
+  width: 100%;
 }
 .contactMain {
   margin-top: 30px;
@@ -103,9 +96,9 @@
   opacity: 1;
   font-size: 90px;
   margin-bottom: -15px;
-  margin-top: 0px
-} 
-.contactLeft p{
+  margin-top: 0px;
+}
+.contactLeft p {
   font-size: 26px;
   color: #757575;
   line-height: 1.3;
@@ -114,20 +107,17 @@
   width: 25%;
   height: 100%;
   border-radius: 100%;
-  
 }
 .contactLeft ul li {
   display: inline-block;
   width: 30%;
-  
+
   margin: 0px 20px 20px -35px;
 }
 .contactLeft ul {
   list-style-type: none;
-  
 }
-.contactLeft ul li a{
-  
+.contactLeft ul li a {
   text-decoration: none;
   display: block;
   line-height: 3;
@@ -140,11 +130,10 @@
 .Projects {
   text-align: center;
   margin-top: 0;
-  position: relative
+  position: relative;
 }
-.Projects  h1 {
+.Projects h1 {
   font-size: 30px;
-  
 }
 .Projects div {
   background-color: green;
@@ -166,7 +155,7 @@
   width: 50%;
   border-radius: 20px;
   margin: 20px auto;
-  box-shadow: 2px 0px 20px 0px rgba(0, 0, 0, 0.2); 
+  box-shadow: 2px 0px 20px 0px rgba(0, 0, 0, 0.2);
   border-color: rgb(219, 213, 213);
   padding: 15px;
   cursor: pointer;
@@ -174,10 +163,10 @@
 }
 .projectBotton {
   text-align: center;
-  margin: 20px 0px
+  margin: 20px 0px;
 }
 .projectBotton button {
-  background-color: #7510F7;
+  background-color: #7510f7;
   color: white;
   padding: 13px 20px;
   border-radius: 10px;
@@ -205,18 +194,15 @@
 .mobileProjectImg {
   margin-bottom: 20px;
 }
-.mobileProjectImg img{
+.mobileProjectImg img {
   box-shadow: 2px 0px 20px 0px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   width: 100%;
   height: 100%;
-  
-  
 }
 
 .mainProject {
   padding: 0px 40px;
- 
 }
 .projectImageContainer img {
   width: 100%;
@@ -224,7 +210,7 @@
   border-radius: 10px;
 }
 .projectImageContainer {
-  height: 60%
+  height: 60%;
 }
 .downSection {
   height: 40%;
@@ -235,13 +221,13 @@
   font-weight: bold;
 }
 .oneAbout {
-  background: #7510F7;
+  background: #7510f7;
   text-align: center;
   display: none;
   padding: 30px 30px;
-  color: white
+  color: white;
 }
-#newWriting{
+#newWriting {
   line-height: 1.5;
   font-family: sans-serif;
   font-size: 1.25rem;
@@ -251,13 +237,12 @@
   text-align: center;
 }
 
-
 .oneProject {
   display: none;
   padding: 0px 80px;
 }
 .contactBox {
-  box-shadow: -1px 2px 30px rgba(0, 0, 0, 0.2); 
+  box-shadow: -1px 2px 30px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   margin: 50px 150px 50px 150px;
   padding: 30px;
@@ -294,9 +279,9 @@
   padding: 20px;
 }
 #submitContainer {
-  text-align: end;
+  text-align: center;
 }
-#submitContainer button{
+#submitContainer button {
   font-family: sans-serif;
   cursor: pointer;
   letter-spacing: 1px;
@@ -304,22 +289,34 @@
   padding: 15px 50px;
   border-radius: 5px;
   border: none;
-  background: #7510F7;
+  background: #7510f7;
   color: white;
-  font-weight: bold
+  font-weight: bold;
 }
 .contact_form_field label {
-  margin-bottom: 20px ;
+  margin-bottom: 20px;
+}
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #000;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  animation: spin 1s linear infinite;
+  margin-left: 10px;
 }
 
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 @media only screen and (max-width: 1024px) {
-  
   .oneAbout {
-    
-    display: block
+    display: block;
   }
-  
+
   .oneService {
     display: block;
     margin-top: -80px;
@@ -327,9 +324,9 @@
   .newService {
     box-shadow: -1px 2px 30px rgba(0, 0, 0, 0.2);
     margin: 40px 40px;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
     border-radius: 20px;
-    border: #E6ECF8;
+    border: #e6ecf8;
   }
   .newService div img {
     width: 20%;
@@ -339,14 +336,14 @@
     font-size: 20px;
     font-family: sans-serif;
   }
-  .oneProject  {
-    display: block
+  .oneProject {
+    display: block;
   }
   .projectContainer {
     width: 80%;
-    
+
     border-radius: 20px;
-    box-shadow: -1px 2px 30px rgba(0, 0, 0, 0.2); 
+    box-shadow: -1px 2px 30px rgba(0, 0, 0, 0.2);
     margin: 0 auto;
     border-color: rgb(219, 213, 213);
     padding: 15px;
@@ -359,12 +356,9 @@
   }
   .projectImageContainer {
     height: 60%;
-    
   }
   .contactBox {
-    
     margin: 50px 80px 50px 80px;
-    
   }
 }
 
@@ -373,66 +367,58 @@
     margin: 40px 15px;
     background: white;
   }
-  .newService p{
+  .newService p {
     font-size: 18px;
   }
-  
+
   .projectContainer {
     width: 100%;
-    
+
     border-radius: 20px;
-    box-shadow: -1px 2px 30px rgba(0, 0, 0, 0.2); 
+    box-shadow: -1px 2px 30px rgba(0, 0, 0, 0.2);
     margin: 0 auto;
     border-color: rgb(219, 213, 213);
     padding: 15px;
     cursor: pointer;
   }
   .oneProject {
-   padding: 0px 40px 
-   
+    padding: 0px 40px;
   }
   .Body {
     text-align: center;
-    padding:  50px 10px 0px 10px;
-    
+    padding: 50px 10px 0px 10px;
   }
-  
-  
- 
+
   .contactBox {
     margin: 50px 20px 50px 20px;
     padding: 10px 10px 10px 4px;
   }
-  #submitContainer button{
+  #submitContainer button {
     cursor: pointer;
     letter-spacing: 1px;
     display: inline-block;
     padding: 15px 30px;
     border-radius: 5px;
     border: none;
-    background: #7510F7;
+    background: #7510f7;
     color: white;
-    font-weight: bold
+    font-weight: bold;
   }
   .Projects p {
     font-size: 20px;
-    padding: 10px
+    padding: 10px;
   }
   .contact_form_field input {
-    font-size: 18px 
+    font-size: 18px;
   }
   .contact_form_field label {
-    margin-bottom: 10px ;
+    margin-bottom: 10px;
   }
   .contact_form_field textarea {
-    font-size: 18px 
+    font-size: 18px;
   }
-  
+
   .downSection span {
     font-size: 20px;
-    
   }
-  
-  
 }
-
