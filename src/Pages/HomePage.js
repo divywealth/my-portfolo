@@ -30,9 +30,9 @@ function HomePage() {
     },
   ];
 
-  const text = `I'm a Fullstack Developer with a passion for building robust and user-friendly web applications. Over the past two years, I've gained valuable experience working on a variety of projects, from frontend interfaces to backend systems. My journey in web development started with a desire to create seamless and dynamic user experiences, and since then, I've honed my skills in both client-side and server-side technologies.
+  const text = `I'm a Fullstack Developer with a passion for building robust and user-friendly applications. Over the past two years, I've gained valuable experience working on a variety of projects, from frontend interfaces to backend systems. My journey in software development started with a desire to create seamless and dynamic user experiences, and since then, I've honed my skills in both client-side and server-side technologies.
 
-  Throughout my career, I've worked with a wide range of technologies, including JavaScript, HTML, CSS, and frameworks such as React, Vue.js, and Node.js (NestJS). My expertise extends to database management, RESTful APIs, and deployment tools, ensuring that every component of a web application is well-integrated and performs optimally.
+  Throughout my career, I've worked with a wide range of technologies, including JavaScript/TypeScript, HTML, CSS, and frameworks such as React, Vue.js, and Node.js (NestJs/SailsJs). My expertise extends to database management, RESTful APIs, and deployment tools, ensuring that every component of a web application is well-integrated and performs optimally.
   
   I thrive on problem-solving and am always eager to tackle new challenges. Whether it's developing new features, optimizing performance, or debugging complex issues, I approach every task with enthusiasm and attention to detail. My goal is to deliver high-quality, scalable solutions that not only meet business requirements but also enhance user experiences.
   
@@ -52,7 +52,7 @@ function HomePage() {
       </div>
       <section className="Body">
         <h1>Fullstack Developer</h1>
-        <p>Hi, I'm Onuora Divine. Nice to meet you</p>
+        <p>Hi, I'm Divine Onuora. Nice to meet you</p>
         <img src={avater} alt="" />
         <div className="computerImg">
           <img src={computer} alt="" />
