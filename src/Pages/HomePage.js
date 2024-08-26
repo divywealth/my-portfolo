@@ -56,7 +56,7 @@ function HomePage() {
         <p>Hi, I'm Divine Onuora. Nice to meet you</p>
         <img src={divy} alt="Not displaying" className="my-image" />
         <div className="computerImg">
-          <img src={computer} alt="Not displaying" />
+          <img src={computer} alt="Not displaying" className="computer-image"/>
         </div>
       </section>
 
