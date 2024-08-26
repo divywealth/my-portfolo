@@ -76,6 +76,9 @@
   }
 
   @media only screen and (max-width: 1000px) {
+    .Nav {
+      padding: 0 10px;
+    }
     .NavLeftSide img {
         height: 100%;
         width: 50%;
