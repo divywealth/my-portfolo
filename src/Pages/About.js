@@ -1,9 +1,20 @@
 import developer from "../assets/developer.jpg";
-import avater from "../assets/avater.jpg";
+import divy from "../assets/Divy.jpg";
 import NavBar from "../components/NavBar/NavBar";
 import BottomBar from "../components/BottomBar/BottomBar";
 
 function About() {
+  const picStyle = {
+    borderRadius: "100%",
+    height: "80%",
+    width: "80%",
+  }
+  const picContainer = {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center"
+  }
   return (
     <div>
       <div>
@@ -40,9 +51,9 @@ function About() {
                 industry.
               </p>
             </div>
-            <div>
+            <div style={picContainer}>
               {" "}
-              <img src={avater} alt="img not showing" />
+              <img src={divy} alt="img not showing" style={picStyle} />
             </div>
           </div>
         </section>

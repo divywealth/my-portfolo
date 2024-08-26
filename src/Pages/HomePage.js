@@ -1,10 +1,10 @@
-import avater from "../assets/avater.jpg";
 import computer from "../assets/Computer.jpg";
 import developer from "../assets/developer.jpg";
 import github from "../assets/github.jpg";
 import carashop from "../assets/cara-shop.jpg";
 import NavBar from "../components/NavBar/NavBar";
 import Slang from "../assets/slang-img.png";
+import divy from "../assets/Divy.jpg";
 import BottomBar from "../components/BottomBar/BottomBar";
 import { useState } from "react";
 
@@ -30,6 +30,7 @@ function HomePage() {
     },
   ];
 
+  
   const text = `I'm a Fullstack Developer with a passion for building robust and user-friendly applications. Over the past two years, I've gained valuable experience working on a variety of projects, from frontend interfaces to backend systems. My journey in software development started with a desire to create seamless and dynamic user experiences, and since then, I've honed my skills in both client-side and server-side technologies.
 
   Throughout my career, I've worked with a wide range of technologies, including JavaScript/TypeScript, HTML, CSS, and frameworks such as React, Vue.js, and Node.js (NestJs/SailsJs). My expertise extends to database management, RESTful APIs, and deployment tools, ensuring that every component of a web application is well-integrated and performs optimally.
@@ -45,6 +46,9 @@ function HomePage() {
   const toggleShowAll = () => {
     setShowAll(!showAll);
   };
+  const picStyle = {
+    borderRadius: '100%'
+  }
   return (
     <div>
       <div>
@@ -53,9 +57,9 @@ function HomePage() {
       <section className="Body">
         <h1>Fullstack Developer</h1>
         <p>Hi, I'm Divine Onuora. Nice to meet you</p>
-        <img src={avater} alt="" />
+        <img src={divy} alt="Not displaying" width={"20%"} height={"20%"} style={picStyle} />
         <div className="computerImg">
-          <img src={computer} alt="" />
+          <img src={computer} alt="Not displaying" />
         </div>
       </section>
 
