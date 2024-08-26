@@ -46,9 +46,6 @@ function HomePage() {
   const toggleShowAll = () => {
     setShowAll(!showAll);
   };
-  const picStyle = {
-    borderRadius: '100%'
-  }
   return (
     <div>
       <div>
@@ -57,7 +54,7 @@ function HomePage() {
       <section className="Body">
         <h1>Fullstack Developer</h1>
         <p>Hi, I'm Divine Onuora. Nice to meet you</p>
-        <img src={divy} alt="Not displaying" width={"20%"} height={"20%"} style={picStyle} />
+        <img src={divy} alt="Not displaying" className="my-image" />
         <div className="computerImg">
           <img src={computer} alt="Not displaying" />
         </div>
