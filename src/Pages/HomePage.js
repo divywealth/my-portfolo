@@ -6,6 +6,8 @@ import NavBar from "../components/NavBar/NavBar";
 import Slang from "../assets/slang-img.png";
 import divy from "../assets/Divy.jpg";
 import BottomBar from "../components/BottomBar/BottomBar";
+import Property from '../assets/Property.png';
+import MyPal from '../assets/mypal.png';
 import { useState } from "react";
 
 function HomePage() {
