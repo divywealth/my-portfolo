@@ -28,6 +28,22 @@ function HomePage() {
       description:
         "Nigeria slangs is widely accepted at the moment most especially slangs used in Afro musics. Different countries are interested in Nigeria slang so this website is for understanding Nigeria slang better and its meaning",
     },
+    {
+      title: "PROPERTY-PROSPECT",
+      pic: Property,
+      Link: "https://property-prospect-hq.vercel.app/",
+      codebaseImg: github,
+      codebaseLink: "https://github.com/divywealth/Propertyprospct-be",
+      description: "Built the backend service for a real estate platform that allows users to search for properties, view details, and contact agents. The service includes features such as property listings, user authentication, and search functionality."
+    },
+    {
+      title: "Mypal",
+      pic: MyPal,
+      Link: "https://mypal-business-admin.onrender.com/",
+      codebaseImg: github,
+      codebaseLink: "",
+      description: "Built the backend service for a business management platform that allows users to manage their business operations, including customer management, sales tracking, and reporting. The service includes features such as user authentication, data storage, and analytics."
+    }
   ];
 
   
